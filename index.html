@@ -8,45 +8,90 @@
   <title>Tim Eifler - Landing Page</title>
 </head>
 <body>
+  <div class="main-container">
   <header>
-    <div class="nav-bar">
-      <h3>Logo</h3>
-      <nav>
-        <li></a></li>
-      </nav>
+    <div class="nav">
+      <ul class="flex">
+        <a id="header-text" href="">Tim Eifler</a>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Biography</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
     </div>
-
   </header>
-  <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="">
-    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Explicabo voluptatem est nemo reprehenderit laborum libero quisquam 
-      iure facere, excepturi aperiam, ex totam eaque cumque maxime necessitatibus 
-      repellendus vero, fugit voluptatibus.</figcaption>
-  </figure>
-  <section id="biographie">
-    <h2>Biographie</h2>
-    <p>I'm a student of the Neue Fische Bootcamp Webdevelopment immersive course. My passion is 
-      My goal is to get a full stack developer position in the future.</p>
-    <!-- Need to add dates and jobs
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  -->
-  <a href="" class="button"></a><a href="" class="button"></a><a href="" class="button"></a>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>You want to be friends or contact me?</p>
-    <ul>
-      <li>Email: <a href="mailto: tim.eif@protonmail.com"> tim.eif@protonmail.com</a></li>
-      <li><a href="https://ca.linkedin.com/in/tim-eifler">Linkedin</a></li>
-      <li><a href="https://github.com/teifler/tim-eifler">GitHub </a></li>
-    </ul>
-  </section>
+  <section class="introduction flex">
+    <div class="introduction-text">
+      <h3>Junior Webdeveloper</h3>
+      <p>I am passionate about learning & sharing, but more importantly, I am an empathetic person who strives for self-improvement and helping others. I pride myself on surpassing expectations, not only by my work, but through my contributions to the team.</p>
+      <button class="btn btn-1">Hire Me</button>
+    </div>
+    <div class="image-introduction">
+      <img src="https://source.unsplash.com/random/500x300" alt="">
+      <p>A random image from unsplash.com</p>
+      </div>
+    </section><!-- END OF BLACK -->
+    
+  <div class="contacts-container flex">
+    <div id="contacts-header-text">
+      <h3>Contact Me</h3>
+      <p>Get in touch</p>
+      <p>Email:<a href = "mailto: tim-eif@protonmail.com">tim.eif@protonmail.com</a>
+    </div>
+    <div class="contacts-boxes">
+      <ul>
+        <li class="box"><a href="https://ca.linkedin.com/in/tim-eifler"><img src="https://camo.githubusercontent.com/c8a9c5b414cd812ad6a97a46c29af67239ddaeae08c41724ff7d945fb4c047e5/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6c696e6b6564696e2e737667"</a></li>
+        <li class="box"><a href="https://github.com/teifler/"><img src="https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"<a></li>
+        <li class="box"><a src=""><img src="https://camo.githubusercontent.com/35b0b8bfbd8840f35607fb56ad0a139047fd5d6e09ceb060c5c6f0a5abd1044c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f747769747465722e737667"</a></li>
+        <li class="box"><a src=""><img src="https://camo.githubusercontent.com/c9dacf0f25a1489fdbc6c0d2b41cda58b77fa210a13a886d6f99e027adfbd358/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f696e7374616772616d2e737667"</a></li>
+    </div>
+  </div>
+    
+  <!-- Biography -->
+  
+  <div class="biography-container flex">
+    <div class="biography-left-container black-color">
+      <h2>Biography</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, tenetur aperiam hic accusantium voluptatibus quae, nemo quibusdam atque, fugit nulla impedit! Ad adipisci temporibus repellendus culpa ullam earum quo architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe dolore omnis unde nostrum placeat.</p>
+    </div>
+    <div class="biography-middle-container black-color">
+      <h2>Hobbys</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum temporibus, iste praesentium fugit quibusdam dignissimos fugiat tenetur vitae obcaecati, dolore distinctio, culpa quae facilis quos aspernatur nesciunt et delectus suscipit voluptatum? Neque impedit numquam iste tenetur, libero exercitationem! Quo in sit autem modi perferendis tempore sequi est fuga vero beatae?
+    </div>
+    <div class="biography-right-container black-color">
+      <h2>Goals</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum temporibus, iste praesentium fugit quibusdam dignissimos fugiat tenetur vitae obcaecati, dolore distinctio, culpa quae facilis quos aspernatur nesciunt et delectus suscipit voluptatum? Neque impedit numquam iste tenetur, libero exercitationem! Quo in sit autem modi perferendis tempore sequi est fuga vero beatae?
+    </div>
+  </div>
+    
+   <section class="experience-container flex">
+     <div class="experience-left-container experience">
+       <h2>work Experience</h2>
+       <p>Professional IT technician with over 5 years of experience in computer networking, analytical thinking, creative problem solving, tools and testing methodologies. Interested in devising a better problem-solving method for challenging programming tasks, and learning new technologies and tools if the need arises. Looking for a career change opportunity that offers me to learn and to be a better frontend developer in the long run. I want to build/optimize Websites that others use on a daily basis.</p>
+     </div>
+     <div class="experience-right-container experience">
+       <h4>Service Administrator</h4>
+       <p>Cloud 9 Solutions (Vancouver, CA) / Feb. 2020 / Jan. 2021</p>
+       <p class="year"><span>1 Year</span></p>
+       <p>Providing the highest, fullest, most cost-effective and most efficient technological solutions for clients on every scale. Everything from small local businesses, to cities and municipalities, to 9 figure business enterprises.</p>
+       <hr>
+       <h4>ebm papst - Client IT Manager</h4>
+       <p class="year"><span>1 Year</span></p>
+       <p>Managing workstations and inhouse IT (Level 1) and  & implementation of new software. Typically project work for internal teams or other locations of EBM Papst.</p>
+     </div>
+   </section> <!-- End expierence container -->
+    
+    <div class="cv-container flex">
+      <div class="cv-text-container">
+        <h3>Resume</h3>
+        <p>You can download my current resume with a click on the button </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, impedit. Libero fuga voluptatibus quos beatae.</p>
+        <button class="btn btn-2">Download Resume</button>
+      </div>
+    </div>
+    
+  
+    
+  </div><!-- Main Container -->
   <footer>
     <p>Tim Eifler - 2021 </p>
     <p><a href="mailto:tim.eif@protonmail.com"> tim.eif@protonmail.com</a></p>

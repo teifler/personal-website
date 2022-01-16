@@ -1,28 +1,295 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poppins:wght@300;400;600&display=swap');
+
+
+ body, div, span {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.2;
-    font-size: 1rem;
-    color: #edf0f1;
+
+h1,h2,h3,h4,h5,h6 {
+  color: #E84C3D;
 }
+
+body {
+  /* font-family:'Poppins', sans-serif; */
+  
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+p {
+  color: #E5E7EB;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */ 
 
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1F2937;
-    color: #e5e7eb;
+  background-color: #1F2937;
+  color: white;
+  padding-bottom: 1px;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: #e5e7eb;
-    padding: 0 20px;
 
+.nav ul {
+  margin-top: 0;
+  padding: 15px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
+}
+
+.nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#header-text {
+  flex:1;
+  font-size: 1.3rem;
+  color: #F9FAF8;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+
+.introduction {
+  background-color: #1F2937
+}
+
+.introduction-text {
+  width: 50%;
+  color: white;
+  padding: 0 150px 0 20px;
+}
+
+.btn:hover {
+  letter-spacing: 0.8em;
+  background-color: #3882F6;
+}
+
+/* BUTTON CENTERN */
+.btn {
+  background-color: #4b8df7;
+  color: white;
+  height: 3rem;
+  witdh: 20%;
+  border:none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  border-radius: 5px;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+  margin-button: 20px;
+}
+
+
+/* contacts */ 
+#contacts-header-text {
+  font-size: 1.4rem;
+}
+
+.contacts-container {
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.contacts-boxes ul {
+  display:flex;
+  justify-content: center;
+  text-style-decoration: none;
+  gap: 15px;
+}
+
+.contacts-boxes li {
+}
+
+
+/* Grey Biography */ 
+.biography-container {
+  background-color: #E5E7EB;
+}
+
+
+.black-color p{
+  color: #1F2937;
+}
+
+.biography-left-container {
+  padding-left: 50px;
+  flex:1;
+}
+
+.biography-middle-container {
+  flex:2;
+  padding-left: 50px;
+}
+
+.biography-right-container {
+  flex:1;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.experience-container {
+  color: #1F2937;
+  flex-wrap:nowrap;
+}
+
+.experience-container p {
+  color: #1F2937;
+}
+
+.experience-container {
+}
+
+.experience-right-container h4 {
+  margin: 75px 0 10px 0;
+}
+
+.experience-right-container p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.experience-right-container span {
+  color: #fff;
+  background-color: #E84C3D;
+}
+
+
+.cv-container {
+  padding-top: 30px;
+  flex-direction: column;
+  text-align: center;
+  background-color: #E5E7EB;
+}
+
+.cv-text-container h4 {
+  margin-top: 76px;
+}
+
+.cv-container p {
+  color:#1F2937;
+  margin: 0 0 5px 0;
+}
+
+.cv-container h3 {
+  text-transform: uppercase;
+  color: #E84C3D;
+}
+
+.cv-container button {
+  margin: 20px 0;
+  width: 35%;
+}
+
+@media (max-width: 1035px) {
+  
+  .main-container {
+    width: 100vw;
+  }
+  
+  .image-introduction img {
+    width: 60vw;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+  }
+  .image-introduction {
+    text-align:center;
+    width: 100vw;
+    
+  }
+  
+  .introduction-text {
+    text-align: center;
+    width: 100vw;
+    padding: 0;
+  }
+  
+  .btn-1 {
+    margin-bottom: 25px
+  }
+  
+  /* Header DONE */ 
+  
+  .biography-container {
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
+  .biography-left-container {
+    flex:1 1 100%;
+  }
+  
+  .biography-middle-container {
+    flex:1 1 100%;
+  }
+  
+  .biography-right-container {
+    flex:1 1 100%;
+    padding-bottom: 30px;
+  }
+  
+  /* WORK EXPERIENCE */ 
+  .experience-right-container {
+    padding-left: 0px;
+    width: 100vw;
+  }  
+  
+  .experience-right-container hr {
+    margin: 30px 0;
+  }
+  
+  experience-container {
+    flex-wrap: wrap;
+  }
+  
+  .experience-right-container {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+ 
+  .experience-left-container h2 {
+    padding-left: 20px;
+  }
+  
+  .experience-container p {
+    padding-left: 45px;
+  }
+ 
+  
+  btn-2 {
+    width: 300px;
+  }
 }
