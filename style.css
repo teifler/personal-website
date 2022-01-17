@@ -218,7 +218,8 @@ footer a {
   text-decoration-style: none;
 }
 footer p {
-  color: white;
+  color: #eee;
+  font-size: 80%;
 }
 
 footer {
