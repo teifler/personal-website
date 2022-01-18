@@ -1,0 +1,13 @@
+.main-header__title {
+  color: var(--dark-red);
+  font-weight: 600%;
+  font-size: 120%;
+  flex: 2;
+  display: inline;
+}
+
+.main-header {
+  background-color: var(--dark-blue-header);
+  color: white;
+  padding-bottom: 3;
+}
