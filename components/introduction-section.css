@@ -1,0 +1,19 @@
+.introduction-section__title {
+  color: var(--dark-red);
+}
+
+.introduction-section {
+  background-color: var(--dark-blue-header);
+  padding: 30px;
+}
+
+.introduction-section__subtitle {
+  width: 50%;
+  color: white;
+}
+
+.intoduction-section__image {
+}
+
+.introduction-section__subtitle {
+}
